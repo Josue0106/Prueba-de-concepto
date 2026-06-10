@@ -1,25 +1,35 @@
 {
   "park_name": "Parque de Grecia",
-  "synthetic_data": "/Users/ajqc/Desktop/ReposVS/Prueba-de-concepto/data/generated/synthetic_features.geojson",
+  "data_mode": "synthetic",
+  "source_data": "/Users/ajqc/Desktop/ReposVS/Prueba-de-concepto/data/generated/synthetic_features.geojson",
   "osm_reference": null,
   "analysis_summary": "/Users/ajqc/Desktop/ReposVS/Prueba-de-concepto/output/analysis_summary.json",
+  "analysis_layers": {
+    "morning": "/Users/ajqc/Desktop/ReposVS/Prueba-de-concepto/output/benches_shadow_morning.geojson",
+    "noon": "/Users/ajqc/Desktop/ReposVS/Prueba-de-concepto/output/benches_shadow_noon.geojson",
+    "afternoon": "/Users/ajqc/Desktop/ReposVS/Prueba-de-concepto/output/benches_shadow_afternoon.geojson",
+    "all_periods": "/Users/ajqc/Desktop/ReposVS/Prueba-de-concepto/output/benches_shadow_all_periods.geojson"
+  },
+  "bench_recommendations": "/Users/ajqc/Desktop/ReposVS/Prueba-de-concepto/output/bench_recommendations.csv",
   "output_html": "/Users/ajqc/Desktop/ReposVS/Prueba-de-concepto/output/parque_grecia_sombra.html",
   "inputs": {
     "benches": 12,
     "trees": 8,
     "lamps": 6,
-    "paths": 3,
     "shadow_radii_m": {
       "morning": 8.5,
       "noon": 5.0,
       "afternoon": 8.0
-    }
+    },
+    "fetch_osm": true,
+    "refresh_osm": false,
+    "satellite_tile_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
   },
-  "generated_feature_counts": {
+  "feature_counts": {
     "benches": 12,
     "trees": 8,
     "lamps": 6,
     "paths": 3
   },
-  "scope_note": "Prueba de concepto con datos sintéticos; no sustituye levantamiento de campo ni modelado solar físico."
+  "scope_note": "Prueba de concepto con datos sintéticos o GeoJSON externo; no sustituye levantamiento validado ni modelado solar físico."
 }

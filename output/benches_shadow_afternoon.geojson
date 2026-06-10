@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"name": "benches_shadow_afternoon",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "B01", "kind": "bench", "source": "synthetic", "tree_count": 0, "shadow_status": "sin sombra", "shadow_radius_m": 8.0, "period": "afternoon", "time_label": "tarde" }, "geometry": { "type": "Point", "coordinates": [ -84.31174473019415, 10.072863201171549 ] } },
+{ "type": "Feature", "properties": { "id": "B02", "kind": "bench", "source": "synthetic", "tree_count": 1, "shadow_status": "sombra parcial", "shadow_radius_m": 8.0, "period": "afternoon", "time_label": "tarde" }, "geometry": { "type": "Point", "coordinates": [ -84.311400618413529, 10.072795173190759 ] } },
+{ "type": "Feature", "properties": { "id": "B03", "kind": "bench", "source": "synthetic", "tree_count": 0, "shadow_status": "sin sombra", "shadow_radius_m": 8.0, "period": "afternoon", "time_label": "tarde" }, "geometry": { "type": "Point", "coordinates": [ -84.311704281326143, 10.072883158380492 ] } },
+{ "type": "Feature", "properties": { "id": "B04", "kind": "bench", "source": "synthetic", "tree_count": 0, "shadow_status": "sin sombra", "shadow_radius_m": 8.0, "period": "afternoon", "time_label": "tarde" }, "geometry": { "type": "Point", "coordinates": [ -84.311939980883437, 10.072828607100735 ] } },
+{ "type": "Feature", "properties": { "id": "B05", "kind": "bench", "source": "synthetic", "tree_count": 1, "shadow_status": "sombra parcial", "shadow_radius_m": 8.0, "period": "afternoon", "time_label": "tarde" }, "geometry": { "type": "Point", "coordinates": [ -84.311615275099399, 10.073031752382365 ] } },
+{ "type": "Feature", "properties": { "id": "B06", "kind": "bench", "source": "synthetic", "tree_count": 0, "shadow_status": "sin sombra", "shadow_radius_m": 8.0, "period": "afternoon", "time_label": "tarde" }, "geometry": { "type": "Point", "coordinates": [ -84.312006010473695, 10.072677906008764 ] } },
+{ "type": "Feature", "properties": { "id": "B07", "kind": "bench", "source": "synthetic", "tree_count": 0, "shadow_status": "sin sombra", "shadow_radius_m": 8.0, "period": "afternoon", "time_label": "tarde" }, "geometry": { "type": "Point", "coordinates": [ -84.311568923153203, 10.072488888767085 ] } },
+{ "type": "Feature", "properties": { "id": "B08", "kind": "bench", "source": "synthetic", "tree_count": 2, "shadow_status": "bien cubierta", "shadow_radius_m": 8.0, "period": "afternoon", "time_label": "tarde" }, "geometry": { "type": "Point", "coordinates": [ -84.311597742587907, 10.072903524262575 ] } },
+{ "type": "Feature", "properties": { "id": "B09", "kind": "bench", "source": "synthetic", "tree_count": 1, "shadow_status": "sombra parcial", "shadow_radius_m": 8.0, "period": "afternoon", "time_label": "tarde" }, "geometry": { "type": "Point", "coordinates": [ -84.31168930127366, 10.072501660517418 ] } },
+{ "type": "Feature", "properties": { "id": "B10", "kind": "bench", "source": "synthetic", "tree_count": 0, "shadow_status": "sin sombra", "shadow_radius_m": 8.0, "period": "afternoon", "time_label": "tarde" }, "geometry": { "type": "Point", "coordinates": [ -84.311935934722541, 10.072633486356146 ] } },
+{ "type": "Feature", "properties": { "id": "B11", "kind": "bench", "source": "synthetic", "tree_count": 0, "shadow_status": "sin sombra", "shadow_radius_m": 8.0, "period": "afternoon", "time_label": "tarde" }, "geometry": { "type": "Point", "coordinates": [ -84.312052716212293, 10.072793933214815 ] } },
+{ "type": "Feature", "properties": { "id": "B12", "kind": "bench", "source": "synthetic", "tree_count": 0, "shadow_status": "sin sombra", "shadow_radius_m": 8.0, "period": "afternoon", "time_label": "tarde" }, "geometry": { "type": "Point", "coordinates": [ -84.311753371395, 10.073067493120679 ] } }
+]
+}
