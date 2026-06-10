@@ -1,15 +1,25 @@
 {
   "park_name": "Parque de Grecia",
-  "synthetic_data": "C:\\Users\\XPC\\Documents\\U\\SIG\\Prueba de concepto\\data\\generated\\synthetic_features.geojson",
+  "synthetic_data": "/Users/ajqc/Desktop/ReposVS/Prueba-de-concepto/data/generated/synthetic_features.geojson",
   "osm_reference": null,
-  "output_html": "C:\\Users\\XPC\\Documents\\U\\SIG\\Prueba de concepto\\output\\parque_grecia_sombra.html",
+  "analysis_summary": "/Users/ajqc/Desktop/ReposVS/Prueba-de-concepto/output/analysis_summary.json",
+  "output_html": "/Users/ajqc/Desktop/ReposVS/Prueba-de-concepto/output/parque_grecia_sombra.html",
   "inputs": {
-    "benches": 14,
-    "trees": 10,
+    "benches": 12,
+    "trees": 8,
+    "lamps": 6,
+    "paths": 3,
     "shadow_radii_m": {
-      "morning": 9.0,
-      "noon": 4.5,
-      "afternoon": 8.5
+      "morning": 8.5,
+      "noon": 5.0,
+      "afternoon": 8.0
     }
-  }
+  },
+  "generated_feature_counts": {
+    "benches": 12,
+    "trees": 8,
+    "lamps": 6,
+    "paths": 3
+  },
+  "scope_note": "Prueba de concepto con datos sintéticos; no sustituye levantamiento de campo ni modelado solar físico."
 }

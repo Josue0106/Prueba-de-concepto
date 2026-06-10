@@ -1,14 +1,35 @@
 {
   "morning": {
-    "sin sombra": 11,
-    "sombra parcial": 3
+    "label": "mañana",
+    "shadow_radius_m": 8.5,
+    "total_benches": 12,
+    "coverage_percent": 33.3,
+    "counts": {
+      "sin sombra": 8,
+      "sombra parcial": 3,
+      "bien cubierta": 1
+    }
   },
   "noon": {
-    "sin sombra": 13,
-    "sombra parcial": 1
+    "label": "mediodía",
+    "shadow_radius_m": 5.0,
+    "total_benches": 12,
+    "coverage_percent": 16.7,
+    "counts": {
+      "sin sombra": 10,
+      "sombra parcial": 2,
+      "bien cubierta": 0
+    }
   },
   "afternoon": {
-    "sin sombra": 12,
-    "sombra parcial": 2
+    "label": "tarde",
+    "shadow_radius_m": 8.0,
+    "total_benches": 12,
+    "coverage_percent": 33.3,
+    "counts": {
+      "sin sombra": 8,
+      "sombra parcial": 3,
+      "bien cubierta": 1
+    }
   }
 }
