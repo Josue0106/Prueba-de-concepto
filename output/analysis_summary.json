@@ -1,0 +1,14 @@
+{
+  "morning": {
+    "sin sombra": 11,
+    "sombra parcial": 3
+  },
+  "noon": {
+    "sin sombra": 13,
+    "sombra parcial": 1
+  },
+  "afternoon": {
+    "sin sombra": 12,
+    "sombra parcial": 2
+  }
+}

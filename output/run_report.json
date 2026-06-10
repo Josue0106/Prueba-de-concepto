@@ -1,0 +1,15 @@
+{
+  "park_name": "Parque de Grecia",
+  "synthetic_data": "C:\\Users\\XPC\\Documents\\U\\SIG\\Prueba de concepto\\data\\generated\\synthetic_features.geojson",
+  "osm_reference": null,
+  "output_html": "C:\\Users\\XPC\\Documents\\U\\SIG\\Prueba de concepto\\output\\parque_grecia_sombra.html",
+  "inputs": {
+    "benches": 14,
+    "trees": 10,
+    "shadow_radii_m": {
+      "morning": 9.0,
+      "noon": 4.5,
+      "afternoon": 8.5
+    }
+  }
+}
