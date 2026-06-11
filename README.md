@@ -19,7 +19,7 @@ El entorno virtual no se versiona. Cada persona debe crearlo localmente desde ce
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
-python -m pip install geopandas shapely folium requests pandas
+python -m pip install -r requirements.txt
 ```
 
 En Windows PowerShell, la activación equivalente es:
